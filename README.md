@@ -1,2 +1,53 @@
-# 100DaysOfPythonProblems
-100 Days of Python Problems is my personal journey of solving Python problems daily for 100 days The aim is to strengthen problem-solving skills, learn Python concepts topic-wise And stay consistent with coding practice By the end of this challenge,this repo will become a complete learning resource for anyone who wants to master Python step by step
+# 🐍 100 Days of Python Problems  
+
+Welcome to **100 Days of Python Problems** 🚀  
+This repo is my personal journey of solving Python problems **every day for 100 days**.  
+The aim is simple: **improve problem-solving skills, master Python concepts topic-by-topic, and stay consistent with coding practice.**  
+
+By the end of this challenge, this repo will become a **complete learning resource** for anyone who wants to master Python step by step.  
+
+---
+
+## 📖 Description  
+
+Each day has its own **folder** (e.g., `day-1`, `day-2`) and inside it are **multiple problem files**.  
+Every file is named based on the problem it solves (e.g., `add_two_numbers.py`, `factorial_function.py`).  
+This way, the repo stays **organized, clean, and easy to navigate**.  
+
+---
+
+## 📅 Daily Progress  
+
+| Day | Problems |
+|-----|----------|
+| [Day-1](day-1/) | Add Two Numbers, Swap Numbers, Find Max |
+| [Day-2](day-2/) | Factorial, Fibonacci Series, Prime Check |
+| [Day-3](day-3/) | String Reverse, Palindrome Check, Vowel Count |
+| ... | ... |
+
+👉 Progress will be updated **daily** as I move forward in the challenge.  
+
+---
+
+## 🗂️ Repository Structure  
+
+```bash
+100DaysOfPythonProblems/
+│
+├── day-1/
+│   ├── add_two_numbers.py
+│   ├── swap_numbers.py
+│   └── find_max.py
+│
+├── day-2/
+│   ├── factorial_function.py
+│   ├── fibonacci_series.py
+│   └── prime_check.py
+│
+├── day-3/
+│   ├── string_reverse.py
+│   ├── palindrome_check.py
+│   └── vowel_count.py
+│
+├── README.md
+└── requirements.txt
