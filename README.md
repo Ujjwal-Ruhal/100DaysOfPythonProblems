@@ -35,14 +35,16 @@ This way, the repo stays **organized, clean, and easy to navigate**.
 100DaysOfPythonProblems/
 │
 ├── day-1/
-│   ├── add_two_numbers.py
-│   ├── swap_numbers.py
-│   └── find_max.py
+│   ├── parampara_ke_anusar.py
+│   ├── examples_of_string.py
+│   └── input_function.py
+│   └── variables.py
+│   └── input_function.py
 │
 ├── day-2/
-│   ├── factorial_function.py
-│   ├── fibonacci_series.py
-│   └── prime_check.py
+│   ├── add_two_numbers.py
+│   ├── find_max.py
+│   └── swap_numbers.py
 │
 ├── day-3/
 │   ├── string_reverse.py
