@@ -45,6 +45,8 @@ This way, the repo stays **organized, clean, and easy to navigate**.
 │   ├── add_two_numbers.py
 │   ├── find_max.py
 │   └── swap_numbers.py
+│   └── fahrenheit_to_celsius.py
+│   └── celsius_to_fahrenheit.py
 │
 ├── day-3/
 │   ├── string_reverse.py
