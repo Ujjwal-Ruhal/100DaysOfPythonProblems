@@ -65,3 +65,39 @@ print('5' + '5')
 # Printing as plain text (not evaluated as math)
 print('1 + 3')  
 # Output: 1 + 3
+
+# Single and double quotes
+city = "Delhi"
+fruit = 'Mango'
+print(city)     # Output: Delhi
+print(fruit)    # Output: Mango
+
+# String concatenation (joining)
+first_name = "Priya"
+last_name = "Sharma"
+full_name = first_name + " " + last_name
+print(full_name)  
+# Output: Priya Sharma
+
+# String repetition
+greeting = "Namaste "
+print(greeting * 3)  
+# Output: Namaste Namaste Namaste 
+
+# Escape sequences
+print("Hello\nIndia")   # \n = new line
+# Output:
+# Hello
+# India
+
+print("Price:\t50 Rs")  # \t = tab space
+# Output: Price:   50 Rs
+
+# String indexing
+word = "Python"
+print(word[0])   # Output: P
+print(word[-1])  # Output: n
+
+# String slicing
+print(word[0:3])   # Output: Pyt
+print(word[2:])    # Output: thon
