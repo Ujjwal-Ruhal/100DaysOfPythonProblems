@@ -66,3 +66,18 @@ print(s)   # Output: 3.0
 z = 'Thank'
 z += ' You'
 print(z)   # Output: Thank You
+
+# Assigning values to variables
+name = "Amit"        # string
+age = 21             # integer
+marks = 87.5         # float
+is_student = True    # boolean
+
+print(name)      # Output: Amit
+print(age)       # Output: 21
+print(marks)     # Output: 87.5
+print(is_student)  # Output: True
+
+# Using variables inside a sentence
+print("My name is", name, "and I am", age, "years old.")
+# Output: My name is Amit and I am 21 years old.
