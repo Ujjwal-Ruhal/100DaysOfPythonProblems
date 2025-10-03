@@ -52,6 +52,8 @@ This way, the repo stays **organized, clean, and easy to navigate**.
 │   ├── numbers_and_conditions.py
 │   ├── more_string_variable_examples.py
 │   └── string_variable_test.py
+│   └── strings_practice.py
+│   └── input_practice.py
 │
 ├── README.md
 └── requirements.txt
