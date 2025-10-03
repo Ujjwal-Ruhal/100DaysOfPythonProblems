@@ -54,6 +54,7 @@ This way, the repo stays **organized, clean, and easy to navigate**.
 │   └── string_variable_test.py
 │   └── strings_practice.py
 │   └── input_practice.py
+│   └── variables_practice.py
 │
 ├── README.md
 └── requirements.txt
