@@ -49,9 +49,9 @@ This way, the repo stays **organized, clean, and easy to navigate**.
 │   └── celsius_to_fahrenheit.py
 │
 ├── day-3/
-│   ├── string_reverse.py
-│   ├── palindrome_check.py
-│   └── vowel_count.py
+│   ├── numbers_and_conditions.py
+│   ├── more_string_variable_examples.py
+│   └── string_variable_test.py
 │
 ├── README.md
 └── requirements.txt
