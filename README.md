@@ -22,7 +22,7 @@ This way, the repo stays **organized, clean, and easy to navigate**.
 |-----|----------|
 | [Day-1](day-1/) | Basic Python Concepts, String, Input function, Parampara ke anusar hello worild, Variables |
 | [Day-2](day-2/) | Add two number, Find mamimum number, Swap two number, fahrenheit_to_celsius, celsius_to_fahrenheit|
-| [Day-3](day-3/) | String Reverse, Palindrome Check, Vowel Count |
+| [Day-3](day-3/) | numbers_and_conditions, more_string_variable_examples, string_variable_test, strings_practice, input_practice, variables_practice |
 | ... | ... |
 
 👉 Progress will be updated **daily** as I move forward in the challenge.  
