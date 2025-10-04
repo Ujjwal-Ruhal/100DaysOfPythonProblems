@@ -64,6 +64,8 @@ This way, the repo stays **organized, clean, and easy to navigate**.
 │   ├── else_statement_examples.py
 │   ├── elif_statement_examples.py
 │   ├── Simple_calculator_example.py
+│   ├── numeric_functions.py
+│   ├── simple_interest.py
 │
 ├── day-n/
 │   ├── .py
