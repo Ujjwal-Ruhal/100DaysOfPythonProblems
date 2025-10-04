@@ -58,5 +58,8 @@ This way, the repo stays **organized, clean, and easy to navigate**.
 │   └── input_practice.py
 │   └── variables_practice.py
 │
+├── day-n/
+│   ├── .py
+│
 ├── README.md
 └── requirements.txt
