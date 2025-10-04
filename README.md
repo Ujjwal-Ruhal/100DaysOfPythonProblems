@@ -63,6 +63,7 @@ This way, the repo stays **organized, clean, and easy to navigate**.
 │   ├── if_statement.py
 │   ├── else_statement_examples.py
 │   ├── elif_statement_examples.py
+│   ├── Simple_calculator_example.py
 │
 ├── day-n/
 │   ├── .py
