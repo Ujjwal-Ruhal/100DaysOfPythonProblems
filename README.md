@@ -66,6 +66,7 @@ This way, the repo stays **organized, clean, and easy to navigate**.
 │   ├── Simple_calculator_example.py
 │   ├── numeric_functions.py
 │   ├── simple_interest.py
+│   ├── range_function_examples.py
 │
 ├── day-n/
 │   ├── .py
