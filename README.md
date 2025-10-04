@@ -58,6 +58,12 @@ This way, the repo stays **organized, clean, and easy to navigate**.
 │   └── input_practice.py
 │   └── variables_practice.py
 │
+├── day-4/
+│   ├── if_else_documentation.py
+│   ├── if_statement.py
+│   ├── else_statement_examples.py
+│   ├── elif_statement_examples.py
+│
 ├── day-n/
 │   ├── .py
 │
