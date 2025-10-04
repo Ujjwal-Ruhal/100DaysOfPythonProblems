@@ -24,6 +24,7 @@ This way, the repo stays **organized, clean, and easy to navigate**.
 | [Day-2](day-2/) | Add two number, Find mamimum number, Swap two number, fahrenheit_to_celsius, celsius_to_fahrenheit|
 | [Day-3](day-3/) | numbers_and_conditions, more_string_variable_examples, string_variable_test, strings_practice, input_practice, variables_practice |
 | [Day-4](day-4/) | if_else_documentation, if_statement, else_statement_examples, elif_statement_examples, numeric_functions, simple_calculator_examples, simple_interest  |
+| [Day-n](day-n/) |  |
 | ... | ... |
 
 👉 Progress will be updated **daily** as I move forward in the challenge.  
