@@ -28,4 +28,9 @@ for i in range(2,21,2):
 n = int(input('Enter a number : '))
 for i in range(1,11):
     num = i*n
-    print(num)
+    print(num,'\n')
+
+print('\n')
+# example of you print a shomething value as many time 
+for i in range(50):
+    print('I Love You')
