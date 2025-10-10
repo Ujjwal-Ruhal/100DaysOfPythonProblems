@@ -14,6 +14,7 @@ while counter <= 10:
     print('I know')
     counter +=1
 
+print('\n\n')
 # print 1 to 20 counting
 
 num = 0
