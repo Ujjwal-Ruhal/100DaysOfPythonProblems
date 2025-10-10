@@ -20,3 +20,7 @@ for i in l:
 # one more example
 for x in ['hello','ji','kiya','haal','hai','aapke']:
     print(x)
+
+# one more example like - print a tabal
+for i in range(2,21,2):
+    print(i)
