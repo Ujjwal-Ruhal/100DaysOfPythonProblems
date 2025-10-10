@@ -1,0 +1,16 @@
+'''
+syntax:
+
+counter variable
+while (test expr...):
+    statement
+    statement
+    increment/decrement
+'''
+
+# print 'I know' to n times
+counter = 1
+while counter <= 10:
+    print('I know')
+    counter +=1
+
