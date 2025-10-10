@@ -24,3 +24,8 @@ for x in ['hello','ji','kiya','haal','hai','aapke']:
 # one more example like - print a tabal
 for i in range(2,21,2):
     print(i)
+# one more example like - print a tabal as a user input
+n = int(input('Enter a number : '))
+for i in range(1,11):
+    num = i*n
+    print(num)
