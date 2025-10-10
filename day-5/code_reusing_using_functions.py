@@ -6,12 +6,18 @@ def fruit_name():
 # Function call
 fruit_name()
 
+print("*****")  # Separator
+
+
 # Function with a parameter
 def greet(name):
     print("Hello", name)
 
 # Function call with argument
 greet("Ujjwal")
+
+print("*****")  # Separator
+
 
 # Function that returns a full name
 def full_name(first, last):
@@ -23,6 +29,8 @@ name = full_name("Ujjwal", "Ruhal")
 # Print result
 print("Your full name is:", name)
 
+print("*****")  # Separator
+
 
 # Function that multiplies two numbers and returns result
 def multiply(a, b):
@@ -31,3 +39,5 @@ def multiply(a, b):
 # Use the returned value
 result = multiply(5, 6)
 print("Multiplication result is:", result)
+
+print("*****")  # Final separator
