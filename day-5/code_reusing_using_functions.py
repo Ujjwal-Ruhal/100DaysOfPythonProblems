@@ -13,3 +13,21 @@ def greet(name):
 # Function call with argument
 greet("Ujjwal")
 
+# Function that returns a full name
+def full_name(first, last):
+    return first + " " + last
+
+# Function call and store the returned value
+name = full_name("Ujjwal", "Ruhal")
+
+# Print result
+print("Your full name is:", name)
+
+
+# Function that multiplies two numbers and returns result
+def multiply(a, b):
+    return a * b
+
+# Use the returned value
+result = multiply(5, 6)
+print("Multiplication result is:", result)
