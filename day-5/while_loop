@@ -14,3 +14,9 @@ while counter <= 10:
     print('I know')
     counter +=1
 
+# print 1 to 20 counting
+
+num = 0
+while num<=20:
+    print(num,'☺️')
+    num +=1
