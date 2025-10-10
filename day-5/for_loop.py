@@ -21,10 +21,10 @@ for i in l:
 for x in ['hello','ji','kiya','haal','hai','aapke']:
     print(x)
 
-# one more example like - print a tabal
+# one more example like - print a table
 for i in range(2,21,2):
     print(i)
-# one more example like - print a tabal as a user input
+# one more example like - print a table as a user input
 n = int(input('Enter a number : '))
 for i in range(1,11):
     num = i*n
