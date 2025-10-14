@@ -108,3 +108,15 @@ tup2 = ('Hello', 'For')
 print("\nTuple with the use of String: ", tup2)
 
 # Note  - The creation of a Python tuple without the use of parentheses is known as Tuple Packing.
+'''
+Access Tuple Items
+
+In order to access tuple items refer to the index number. Use the index operator [ ] to access an item in a tuple.
+'''
+tup1 = tuple([1, 2, 3, 4, 5])
+
+# access tuple items
+print(tup1[0])
+print(tup1[-1])
+print(tup1[-3])
+
