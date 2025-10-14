@@ -165,3 +165,4 @@ A dictionary in Python is a collection of data values, used to store data values
 Create a Dictionary in Python
 Values in a dictionary can be of any datatype and can be duplicated, whereas keys can’t be repeated and must be immutable. The dictionary can also be created by the built-in function dict().
 '''
+# Note  - Dictionary keys are case sensitive, the same name but different cases of Key will be treated distinctly. 
