@@ -101,3 +101,10 @@ In Python, tuples are created by placing a sequence of values separated by a ‘
 
 Note: Tuples can also be created with a single element, but it is a bit tricky. Having one element in the parentheses is not sufficient, there must be a trailing ‘comma’ to make it a tuple. 
 '''
+# initiate empty tuple
+tup1 = ()
+
+tup2 = ('Hello', 'For')
+print("\nTuple with the use of String: ", tup2)
+
+# Note  - The creation of a Python tuple without the use of parentheses is known as Tuple Packing.
