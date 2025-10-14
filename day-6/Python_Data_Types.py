@@ -180,3 +180,10 @@ print(d1)
 Accessing Key-value in Dictionary
 In order to access items of a dictionary refer to its key name. Key can be used inside square brackets. Using get() method we can access dictionary elements.
 '''
+d = {1: 'Hello', 'name': 'Ujjwal', 3: 'Hello'}
+
+# Accessing an element using key
+print(d['name'])
+
+# Accessing a element using get
+print(d.get(3))
