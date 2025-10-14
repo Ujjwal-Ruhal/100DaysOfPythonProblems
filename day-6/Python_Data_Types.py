@@ -166,3 +166,13 @@ Create a Dictionary in Python
 Values in a dictionary can be of any datatype and can be duplicated, whereas keys can’t be repeated and must be immutable. The dictionary can also be created by the built-in function dict().
 '''
 # Note  - Dictionary keys are case sensitive, the same name but different cases of Key will be treated distinctly. 
+# initialize empty dictionary
+d = {}
+
+d = {1: 'Hello', 2: 'For', 3: 'Hello'}
+print(d)
+
+# creating dictionary using dict() constructor
+d1 = dict({1: 'Hello', 2: 'For', 3: 'Hello'})
+print(d1)
+
