@@ -11,3 +11,14 @@ Boolean: bool
 Set Type: set, frozenset
 Binary Types: bytes, bytearray, memoryview
 '''
+'''
+Below code assigns variable 'x' different values of few Python data types - int, float, list, tuple and string. Each assignment replaces previous value, making 'x' take on data type and value of most recent assignment.
+'''
+
+x = 50  # int
+x = 60.5  # float
+x = "Hello World"  # string
+x = ["geeks", "for", "geeks"]  # list 
+x = ("geeks", "for", "geeks")  # tuple
+x = {1:24 , 2:'hello', 'name':'ujjwal','age':20.1} # dict- key:value
+
