@@ -176,3 +176,7 @@ print(d)
 d1 = dict({1: 'Hello', 2: 'For', 3: 'Hello'})
 print(d1)
 
+'''
+Accessing Key-value in Dictionary
+In order to access items of a dictionary refer to its key name. Key can be used inside square brackets. Using get() method we can access dictionary elements.
+'''
