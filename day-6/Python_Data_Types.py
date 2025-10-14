@@ -158,3 +158,10 @@ for i in set1:
 # check if item exist in set   
 print("Hello" in set1)
 
+'''
+Dictionary Data Type
+A dictionary in Python is a collection of data values, used to store data values like a map, unlike other Python Data Types, a Dictionary holds a key: value pair. Key-value is provided in dictionary to make it more optimized. Each key-value pair in a Dictionary is separated by a colon : , whereas each key is separated by a ‘comma’.
+
+Create a Dictionary in Python
+Values in a dictionary can be of any datatype and can be duplicated, whereas keys can’t be repeated and must be immutable. The dictionary can also be created by the built-in function dict().
+'''
