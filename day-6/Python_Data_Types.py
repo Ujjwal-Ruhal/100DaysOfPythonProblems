@@ -124,3 +124,7 @@ print(tup1[-3])
 Boolean Data Type in Python
 Python Boolean Data type is one of the two built-in values, True or False. Boolean objects that are equal to True are truthy (true) and those equal to False are falsy (false). However non-Boolean objects can be evaluated in a Boolean context as well and determined to be true or false. It is denoted by class bool.
 '''
+print(type(True))
+print(type(False))
+print(type(true))
+
