@@ -66,3 +66,14 @@ Creating a List in Python
 
 Lists in Python can be created by just placing sequence inside the square brackets[].
 '''
+# Empty list
+a = []
+
+# list with int values
+a = [1, 2, 3]
+print(a)
+
+# list with mixed values int and String
+b = ["Hello", "For", "Hello", 4, 5]
+print(b)
+
