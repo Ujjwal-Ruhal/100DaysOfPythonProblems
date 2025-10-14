@@ -135,3 +135,12 @@ In Python Data Types, Set is an unordered collection of data types that is itera
 Create a Set in Python
 Sets can be created by using the built-in set() function with an iterable object or a sequence by placing the sequence inside curly braces, separated by a ‘comma’. The type of elements in a set need not be the same, various mixed-up data type values can also be passed to the set.
 '''
+# initializing empty set
+s1 = set()
+
+s1 = set("HelloUjjwalHello")
+print("Set with the use of String: ", s1)
+
+s2 = set(["Hello", "For", "Hello"])
+print("Set with the use of List: ", s2)
+
