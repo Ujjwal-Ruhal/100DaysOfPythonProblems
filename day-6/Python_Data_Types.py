@@ -1,189 +1,202 @@
 '''
 Python Data Types
-Data types in Python are a way to classify data items. They represent the kind of value, which determines what operations can be performed on that data. Since everything is an object in Python programming, Python data types are classes and variables are instances (objects) of these classes.
 
-The following are standard or built-in data types in Python:
+Data types in Python classify data items — they define the kind of value and what operations
+can be performed on it. Since everything in Python is an object, data types are classes,
+and variables are instances (objects) of these classes.
 
-Numeric: int, float, complex
-Sequence Type: string, list, tuple
-Mapping Type: dict
-Boolean: bool
-Set Type: set, frozenset
-Binary Types: bytes, bytearray, memoryview
+Standard Built-in Data Types in Python:
+1. Numeric: int, float, complex
+2. Sequence: str, list, tuple
+3. Mapping: dict
+4. Boolean: bool
+5. Set: set, frozenset
+6. Binary: bytes, bytearray, memoryview
 '''
+
+# =====================================================
+# Demonstrating different data types with unique variables
+# =====================================================
+
+# Assigning different data types to separate variables
+x_int = 50                             # int
+x_float = 60.5                         # float
+x_str = "Hello World"                  # string
+x_list = ["Hello", "for", "Hello"]     # list 
+x_tuple = ("Hello", "for", "Hello")    # tuple
+x_dict = {1: 24, 2: 'hello', 'name': 'ujjwal', 'age': 20.1}  # dict
+
+print("\n--- Basic Data Type Assignments ---")
+print("Integer:", x_int, "| Type:", type(x_int))     # Output: 50 | <class 'int'>
+print("Float:", x_float, "| Type:", type(x_float))   # Output: 60.5 | <class 'float'>
+print("String:", x_str, "| Type:", type(x_str))      # Output: Hello World | <class 'str'>
+print("List:", x_list, "| Type:", type(x_list))      # Output: ['Hello', 'for', 'Hello'] | <class 'list'>
+print("Tuple:", x_tuple, "| Type:", type(x_tuple))   # Output: ('Hello', 'for', 'Hello') | <class 'tuple'>
+print("Dictionary:", x_dict, "| Type:", type(x_dict))
+# Output: {1: 24, 2: 'hello', 'name': 'ujjwal', 'age': 20.1} | <class 'dict'>
+
+
+# =====================================================
+# NUMERIC DATA TYPES
+# =====================================================
 '''
-Below code assigns variable 'x' different values of few Python data types - int, float, list, tuple and string. Each assignment replaces previous value, making 'x' take on data type and value of most recent assignment.
+Numeric Data Types:
+- int: whole numbers (no decimals)
+- float: numbers with decimal point
+- complex: numbers with real and imaginary parts
 '''
 
-x = 50  # int
-x = 60.5  # float
-x = "Hello World"  # string
-x = ["geeks", "for", "geeks"]  # list 
-x = ("geeks", "for", "geeks")  # tuple
-x = {1:24 , 2:'hello', 'name':'ujjwal','age':20.1} # dict- key:value
+print("\n--- Numeric Data Types ---")
 
-'''Numeric Data Types
-Python numbers represent data that has a numeric value. A numeric value can be an integer, a floating number or even a complex number. These values are defined as int, float and complex classes.
-
-Integers: value is represented by int class. It contains positive or negative whole numbers (without fractions or decimals). There is no limit to how long an integer value can be.
-Float: value is represented by float class. It is a real number with a floating-point representation. It is specified by a decimal point. Optionally, character e or E followed by a positive or negative integer may be appended to specify scientific notation.
-Complex Numbers: It is represented by a complex class. It is specified as (real part) + (imaginary part)j. For example - 2+3j
-'''
 a = 5
-print(type(a))
+print(a, "->", type(a))     # Output: 5 -> <class 'int'>
 
 b = 5.0
-print(type(b))
+print(b, "->", type(b))     # Output: 5.0 -> <class 'float'>
 
 c = 2 + 4j
-print(type(c))
+print(c, "->", type(c))     # Output: (2+4j) -> <class 'complex'>
 
+
+# =====================================================
+# SEQUENCE DATA TYPES
+# =====================================================
 '''
- Sequence Data Types
-A sequence is an ordered collection of items, which can be of similar or different data types. Sequences allow storing of multiple values in an organized and efficient fashion. There are several sequence data types of Python:
-
-String Data Type
-Python Strings are arrays of bytes representing Unicode characters. In Python, there is no character data type, a character is a string of length one. It is represented by str class.
-
-Strings in Python can be created using single quotes, double quotes or even triple quotes. We can access individual characters of a String using index.
+Sequence Types in Python include: string, list, and tuple.
+They are ordered collections that can be indexed and iterated.
 '''
+
+# -------------------------
+# STRING DATA TYPE
+# -------------------------
+print("\n--- String Data Type ---")
+
 s = 'Welcome to the Ujjwal'
-print(s)
+print("String:", s)          # Output: Welcome to the Ujjwal
+print("Type:", type(s))      # Output: <class 'str'>
 
-# check data type 
-print(type(s))
+# Accessing characters by index
+print("s[1]:", s[1])         # Output: e
+print("s[2]:", s[2])         # Output: l
+print("s[-1]:", s[-1])       # Output: l
 
-# access string with index
-print(s[1])
-print(s[2])
-print(s[-1])
 
-'''
-List Data Type
-Lists are similar to arrays found in other languages. They are an ordered and mutable collection of items. It is very flexible as items in a list do not need to be of the same type.
+# -------------------------
+# LIST DATA TYPE
+# -------------------------
+print("\n--- List Data Type ---")
 
-Creating a List in Python
-
-Lists in Python can be created by just placing sequence inside the square brackets[].
-'''
-# Empty list
-a = []
-
-# list with int values
+# Lists are mutable and ordered collections
 a = [1, 2, 3]
-print(a)
-
-# list with mixed values int and String
 b = ["Hello", "For", "Hello", 4, 5]
-print(b)
 
-'''
-Access List Items
+print("List a:", a)          # Output: [1, 2, 3]
+print("List b:", b)          # Output: ['Hello', 'For', 'Hello', 4, 5]
 
-In order to access the list items refer to index number. In Python, negative sequence indexes represent positions from end of the array. Instead of having to compute offset as in List[len(List)-3], it is enough to just write List[-3]. Negative indexing means beginning from end, -1 refers to last item, -2 refers to second-last item, etc.
-'''
-a = ["Hello", "For", "Hello"]
-print("Accessing element from the list")
-print(a[0])
-print(a[2])
+# Accessing elements
+print("a[0]:", a[0])         # Output: 1
+print("a[2]:", a[2])         # Output: 3
+print("a[-1]:", a[-1])       # Output: 3 (last element)
+print("a[-3]:", a[-3])       # Output: 1 (first element)
 
-print("Accessing element using negative indexing")
-print(a[-1])
-print(a[-3])
 
-'''
-Tuple Data Type
-Tuple is an ordered collection of Python objects. The only difference between a tuple and a list is that tuples are immutable. Tuples cannot be modified after it is created.
+# -------------------------
+# TUPLE DATA TYPE
+# -------------------------
+print("\n--- Tuple Data Type ---")
 
-Creating a Tuple in Python
-
-In Python, tuples are created by placing a sequence of values separated by a ‘comma’ with or without the use of parentheses for grouping data sequence. Tuples can contain any number of elements and of any datatype (like strings, integers, lists, etc.).
-
-Note: Tuples can also be created with a single element, but it is a bit tricky. Having one element in the parentheses is not sufficient, there must be a trailing ‘comma’ to make it a tuple. 
-'''
-# initiate empty tuple
+# Tuples are ordered but immutable
 tup1 = ()
-
 tup2 = ('Hello', 'For')
-print("\nTuple with the use of String: ", tup2)
+print("Tuple 1:", tup1)      # Output: ()
+print("Tuple 2:", tup2)      # Output: ('Hello', 'For')
 
-# Note  - The creation of a Python tuple without the use of parentheses is known as Tuple Packing.
-'''
-Access Tuple Items
+# Tuple from list
+tup3 = tuple([1, 2, 3, 4, 5])
+print("Tuple 3:", tup3)      # Output: (1, 2, 3, 4, 5)
 
-In order to access tuple items refer to the index number. Use the index operator [ ] to access an item in a tuple.
-'''
-tup1 = tuple([1, 2, 3, 4, 5])
+# Accessing tuple elements
+print("tup3[0]:", tup3[0])   # Output: 1
+print("tup3[-1]:", tup3[-1]) # Output: 5
+print("tup3[-3]:", tup3[-3]) # Output: 3
 
-# access tuple items
-print(tup1[0])
-print(tup1[-1])
-print(tup1[-3])
 
+# =====================================================
+# BOOLEAN DATA TYPE
+# =====================================================
 '''
-Boolean Data Type in Python
-Python Boolean Data type is one of the two built-in values, True or False. Boolean objects that are equal to True are truthy (true) and those equal to False are falsy (false). However non-Boolean objects can be evaluated in a Boolean context as well and determined to be true or false. It is denoted by class bool.
+Boolean Data Type:
+Represents one of two values: True or False.
+Often used in conditional statements.
 '''
-print(type(True))
-print(type(False))
-print(type(true))
 
-'''
-Set Data Type in Python
-In Python Data Types, Set is an unordered collection of data types that is iterable, mutable, and has no duplicate elements. The order of elements in a set is undefined though it may consist of various elements.
+print("\n--- Boolean Data Type ---")
+print("Type of True:", type(True))     # Output: <class 'bool'>
+print("Type of False:", type(False))   # Output: <class 'bool'>
 
-Create a Set in Python
-Sets can be created by using the built-in set() function with an iterable object or a sequence by placing the sequence inside curly braces, separated by a ‘comma’. The type of elements in a set need not be the same, various mixed-up data type values can also be passed to the set.
+# Demonstration with expressions
+print("Is 10 > 5?", 10 > 5)            # Output: True
+print("Is 3 == 7?", 3 == 7)            # Output: False
+
+
+# =====================================================
+# SET DATA TYPE
+# =====================================================
 '''
-# initializing empty set
+Set Data Type:
+- Unordered collection with no duplicate elements.
+- Mutable and iterable.
+- Elements must be immutable (hashable).
+'''
+
+print("\n--- Set Data Type ---")
+
+# Empty set
 s1 = set()
+print("Empty Set:", s1)  # Output: set()
 
+# From string (duplicates removed)
 s1 = set("HelloUjjwalHello")
-print("Set with the use of String: ", s1)
+print("Set from String:", s1)
 
+# From list (duplicates removed)
 s2 = set(["Hello", "For", "Hello"])
-print("Set with the use of List: ", s2)
+print("Set from List:", s2)  # Output: {'Hello', 'For'}
 
-'''
-Access Set Items
-Set items cannot be accessed by referring to an index, since sets are unordered the items have no index. But we can loop through the set items using a for loop, or ask if a specified value is present in a set, by using the keyword in.
-'''
-set1 = set(["Hello", "For", "Hello"]) #Duplicates are removed automatically
-print(set1) 
+# Looping through a set
+print("Looping through set:")
+for i in s2:
+    print(i, end=" ")   # Output: Hello For (order may vary)
+print()
 
-# loop through set
-for i in set1:
-   print(i, end=" ") #prints elements one by one
-  
-# check if item exist in set   
-print("Hello" in set1)
+# Check membership
+print("'Hello' in s2?", "Hello" in s2)  # Output: True
 
-'''
-Dictionary Data Type
-A dictionary in Python is a collection of data values, used to store data values like a map, unlike other Python Data Types, a Dictionary holds a key: value pair. Key-value is provided in dictionary to make it more optimized. Each key-value pair in a Dictionary is separated by a colon : , whereas each key is separated by a ‘comma’.
 
-Create a Dictionary in Python
-Values in a dictionary can be of any datatype and can be duplicated, whereas keys can’t be repeated and must be immutable. The dictionary can also be created by the built-in function dict().
+# =====================================================
+# DICTIONARY DATA TYPE
+# =====================================================
 '''
-# Note  - Dictionary keys are case sensitive, the same name but different cases of Key will be treated distinctly. 
-# initialize empty dictionary
+Dictionary:
+- Key-value pairs.
+- Keys must be unique and immutable.
+- Values can be of any data type.
+'''
+
+print("\n--- Dictionary Data Type ---")
+
+# Empty dictionary
 d = {}
 
+# Creating dictionary directly
 d = {1: 'Hello', 2: 'For', 3: 'Hello'}
-print(d)
+print("Dictionary d:", d)
 
-# creating dictionary using dict() constructor
+# Creating using dict() constructor
 d1 = dict({1: 'Hello', 2: 'For', 3: 'Hello'})
-print(d1)
+print("Dictionary d1:", d1)
 
-'''
-Accessing Key-value in Dictionary
-In order to access items of a dictionary refer to its key name. Key can be used inside square brackets. Using get() method we can access dictionary elements.
-'''
+# Accessing values
 d = {1: 'Hello', 'name': 'Ujjwal', 3: 'Hello'}
-
-# Accessing an element using key
-print(d['name'])
-
-# Accessing a element using get
-print(d.get(3))
+print("d['name']:", d['name'])  # Output: Ujjwal
+print("d.get(3):", d.get(3))    # Output: Hello
