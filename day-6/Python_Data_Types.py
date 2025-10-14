@@ -91,3 +91,13 @@ print("Accessing element using negative indexing")
 print(a[-1])
 print(a[-3])
 
+'''
+Tuple Data Type
+Tuple is an ordered collection of Python objects. The only difference between a tuple and a list is that tuples are immutable. Tuples cannot be modified after it is created.
+
+Creating a Tuple in Python
+
+In Python, tuples are created by placing a sequence of values separated by a ‘comma’ with or without the use of parentheses for grouping data sequence. Tuples can contain any number of elements and of any datatype (like strings, integers, lists, etc.).
+
+Note: Tuples can also be created with a single element, but it is a bit tricky. Having one element in the parentheses is not sufficient, there must be a trailing ‘comma’ to make it a tuple. 
+'''
