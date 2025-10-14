@@ -38,3 +38,12 @@ print(type(b))
 c = 2 + 4j
 print(type(c))
 
+'''
+ Sequence Data Types
+A sequence is an ordered collection of items, which can be of similar or different data types. Sequences allow storing of multiple values in an organized and efficient fashion. There are several sequence data types of Python:
+
+String Data Type
+Python Strings are arrays of bytes representing Unicode characters. In Python, there is no character data type, a character is a string of length one. It is represented by str class.
+
+Strings in Python can be created using single quotes, double quotes or even triple quotes. We can access individual characters of a String using index.
+'''
