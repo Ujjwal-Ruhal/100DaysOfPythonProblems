@@ -24,8 +24,11 @@ This way, the repo stays **organized, clean, and easy to navigate**.
 | [Day-2](day-2/) | Add two number, Find mamimum number, Swap two number, fahrenheit_to_celsius, celsius_to_fahrenheit|
 | [Day-3](day-3/) | numbers_and_conditions, more_string_variable_examples, string_variable_test, strings_practice, input_practice, variables_practice |
 | [Day-4](day-4/) | if_else_documentation, if_statement, else_statement_examples, elif_statement_examples, numeric_functions, simple_calculator_examples, simple_interest, range_function_examples  |
+| [Day-5](day-5/) | Reusable modules: functions, loops, code reuse, main  |
+| [Day-6](day-6/) | Data types demos and Uses |
+| [Day-7](day-7/) | Even/odd check, sign, voting eligibility, divisibility logic, find largest, grading, vowel and consonant check |
 | [Day-n](day-n/) |  |
-| ... | ... |
+| ... | ... |            
 
 👉 Progress will be updated **daily** as I move forward in the challenge.  
 
@@ -67,6 +70,30 @@ This way, the repo stays **organized, clean, and easy to navigate**.
 │   ├── numeric_functions.py
 │   ├── simple_interest.py
 │   └── range_function_examples.py
+│
+├── day-5/
+│   ├── Module/
+│   │   ├── __pycache__/
+│   │   │   └── mymodule.cpython-XXX.pyc
+│   │   ├── main.py
+│   │   ├── module.py
+│   │   ├── mymodule.py
+│   ├── code_reusing_using_functions.py
+│   ├── for_loop.py
+│   └── while_loop.py
+│
+├── day-6/
+│   ├── python_data_types_demo.py
+│   └── Python_Data_Types.py
+│
+├── day-7 practice to if and else questions/
+│   ├── check_num_even_or_odd.py
+│   ├── check_number_sign.py
+│   ├── check_voting_eligibility.py
+│   ├── Divisible_by_3_and_5_but_NOT_by_10.py
+│   ├── find_largest_number.py
+│   ├── Marks_to_Grade.py
+│   ├── vowel_consonant_check.py
 │
 ├── day-n/
 │   ├── .py
