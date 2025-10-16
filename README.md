@@ -86,7 +86,7 @@ This way, the repo stays **organized, clean, and easy to navigate**.
 │   ├── python_data_types_demo.py
 │   └── Python_Data_Types.py
 │
-├── day-7 practice to if and else questions/
+├── day-7 if_else_practice/
 │   ├── check_num_even_or_odd.py
 │   ├── check_number_sign.py
 │   ├── check_voting_eligibility.py
