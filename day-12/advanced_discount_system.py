@@ -1,64 +1,71 @@
 try:
-    purchase_amount = float(input("total bill amount : "))
+    purchase_amount = float(input("Total bill amount : ₹ "))
     customer_type = input("Customer type ( Premium / Regular / New ) : ").strip().upper()
-    coupon = input("do you have coupon code ( Y / N ) : ").strip().lower()
-    if coupon == "y": 
-        coupon_code = input("Enter your coupon code ( FESTIVE10 / NEWYEARS5 ) : ").strip().upper() # coupon code will be : FESTIVE10 = 10% DISCOUNT , NEWYEARS5 = 5% DISCOUNT , OTHERWISE = INVALID COUPON
+    coupon = input("Do you have a coupon code ( Y / N ) : ").strip().lower()
+
+    if coupon == "y":
+        coupon_code = input("Enter your coupon code ( FESTIVE10 / NEWYEARS5 ) : ").strip().upper()
+    else:
+        coupon_code = None
+
     loyalty_points = int(input("Previous earned points : "))
 
-    if not ( purchase_amount > 0 and customer_type in [ 'PREMIUM', 'REGULAR', 'NEW' ] and coupon in [ 'y', 'n' ] and loyalty_points >= 0 ):
-        print("Invalid Input : ya to aapne koi negative value li hai ya pir aapne koi bhi product buy nahi kiya hai ya aapne customer type galat fill kr diya ya pir coupon code galat hoga")
+    # ---------- Input Validation ----------
+    if not (purchase_amount > 0 and customer_type in ['PREMIUM', 'REGULAR', 'NEW'] 
+            and coupon in ['y', 'n'] and loyalty_points >= 0):
+        print("\n⚠ Invalid Input: Check all values (amount, customer type, coupon, loyalty points).")
+
     else:
         discount = 0
-        apply_dis = ""
-        
-        # Customer Types
-        if customer_type == "PREMIUM": # base discount = 15 %
-            discount = (purchase_amount * 15) / 100
-            apply_dis = "Base 15%"
-        elif customer_type == "REGULAR": # base discount = 10 %
-            discount = (purchase_amount * 10) / 100 
-            apply_dis = "Base 10%"
-        elif customer_type == "NEW": # base discount = 5 %
-            discount = (purchase_amount * 5) / 100
-            apply_dis = "Base 5%"
-            
+        applied_discounts = []
 
-        # Purchase amount according
-        if 50000 <= purchase_amount < 100000:# extra discount 5 % 
-            discount += (purchase_amount * 5) / 100
-            apply_dis += " + Extra 5%"
-        if purchase_amount >= 100000 : # extra discount 10 % 
+        # ---------- Base Discount ----------
+        if customer_type == "PREMIUM":
+            discount += (purchase_amount * 15) / 100
+            applied_discounts.append("Base 15%")
+        elif customer_type == "REGULAR":
             discount += (purchase_amount * 10) / 100
-            apply_dis += " + Extra 10%"
+            applied_discounts.append("Base 10%")
+        elif customer_type == "NEW":
+            discount += (purchase_amount * 5) / 100
+            applied_discounts.append("Base 5%")
 
-        # Discount Coupons
+        # ---------- Purchase Slab Discount ----------
+        if purchase_amount >= 100000:
+            discount += (purchase_amount * 10) / 100
+            applied_discounts.append("Extra 10% (High Purchase Bonus)")
+        elif purchase_amount >= 50000:
+            discount += (purchase_amount * 5) / 100
+            applied_discounts.append("Extra 5% (Mid Purchase Bonus)")
+
+        # ---------- Coupon Discount ----------
         if coupon == "y":
-            if coupon_code == "FESTIVE10": # EXTRA 10% Discount
+            if coupon_code == "FESTIVE10":
                 discount += (purchase_amount * 10) / 100
-                apply_dis += " + Coupon 10% "
+                applied_discounts.append("Coupon 10% (FESTIVE10)")
+            elif coupon_code == "NEWYEARS5":
+                discount += (purchase_amount * 5) / 100
+                applied_discounts.append("Coupon 5% (NEWYEARS5)")
+            else:
+                applied_discounts.append("Invalid Coupon (No Discount)")
 
-            elif coupon_code == "NEWYEARS5": # EXTRA 5% Discount
-                discount += (purchase_amount * 10) / 100
-                apply_dis += " + Coupon 5% "
-                
-        # Loyalty Points
+        # ---------- Loyalty Discount ----------
         if loyalty_points >= 100:
-            loyalty_points = int(loyalty_points / 100)
-            discount += loyalty_points * 50
-            loyalty_points *= 50
-            apply_dis += f" + Loyalty ₹ {loyalty_points}"
-            
+            loyalty_discount = (loyalty_points // 100) * 50
+            discount += loyalty_discount
+            applied_discounts.append(f"Loyalty ₹{loyalty_discount}")
 
+        # ---------- Final Calculation ----------
         final_amount = purchase_amount - discount
 
-        # final output
-        print('\n' + '*' * 30)
-        print(f"Customer Type : {customer_type}")
-        print(f"Applied Offers : {apply_dis}")
-        print(f"Total Discount : ₹ {discount}")
-        print(f"Final Amount : ₹ {final_amount}")
-        print('*' * 30)
+        # ---------- Output ----------
+        print("\n" + "*" * 45)
+        print(f"Customer Type    : {customer_type}")
+        print(f"Total Bill       : ₹{purchase_amount:,.2f}")
+        print(f"Applied Offers   : {', '.join(applied_discounts)}")
+        print(f"Total Discount   : ₹{discount:,.2f}")
+        print(f"Final Payable    : ₹{final_amount:,.2f}")
+        print("*" * 45)
 
 except ValueError:
-    print("Invalid Input")
+    print("⚠ Invalid Input (Expected numeric values for amount or points).")
