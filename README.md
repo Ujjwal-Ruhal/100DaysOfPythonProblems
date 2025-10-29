@@ -27,6 +27,12 @@ This way, the repo stays **organized, clean, and easy to navigate**.
 | [Day-5](day-5/) | Reusable modules: functions, loops, code reuse, main  |
 | [Day-6](day-6/) | Data types demos and Uses |
 | [Day-7](day-7/) | Even/odd check, sign, voting eligibility, divisibility logic, find largest, grading, vowel and consonant check |
+| [Day-8](day-8/) | Age, Qualification, Credit Card, Salary Bonus, Travel check |
+| [Day-9](day-9/) | Largest of three, Pos/Neg/Even/Odd, Grades analyzer |
+| [Day-10](day-10/) | Advanced grade evaluators, Job & loan eligibility, Leap year checker |
+| [Day-11](day-11/) | Electricity bill, Multi-customer billing, Salary increment |
+| [Day-12](day-12/) | Advanced discount systems, Bonus calculation advanced |
+| [Day-13](day-13/) | Counting digits, Digital root, Print n-sum, Even-odd sum |
 | [Day-n](day-n/) |  |
 | ... | ... |            
 
