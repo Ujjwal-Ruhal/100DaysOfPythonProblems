@@ -95,6 +95,40 @@ This way, the repo stays **organized, clean, and easy to navigate**.
 │   ├── Marks_to_Grade.py
 │   ├── vowel_consonant_check.py
 │
+├── day-8/
+│   ├── age_experience_and_qualification_check.py
+│   ├── Credit_Card_Eligibility.py
+│   ├── employee_salary_bonus_calculator.py
+│   ├── travel_or_not.py
+│
+├── day-9/
+│   ├── 03_LargestOfThreeNumbers.py
+│   ├── 04_PositiveNegativeEvenOdd.py
+│   ├── grades.py
+│   ├── Odd_Even_Analyzer.py
+│
+├── day-10/
+│   ├── grade_evaluator_advanced_enhance.py
+│   ├── grade_evaluator_advanced.py
+│   ├── job_eligibility_evaluator.py
+│   ├── LeapYearChecker.py
+│   ├── loan_eligibility_checker.py
+│
+├── day-11/
+│   ├── electricity_bill_calculator.py
+│   ├── multi_customer_billing.py
+│   ├── salary_increment_calculator.py
+│
+├── day-12/
+│   ├── advanced_discount_system.py
+│   ├── bonus_calculation_advanced.py
+│
+├── day-13/
+│   ├── count_digits_analysis.py
+│   ├── digital_root_calculator.py
+│   ├── print_n_num_and_sum.py
+│   ├── sum_even_odd.py
+│
 ├── day-n/
 │   ├── .py
 │
