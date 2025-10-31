@@ -1,7 +1,7 @@
 num = int(input("Enter a number: "))
 
 if num < 0:
-    print("Factorial not defined for negative number")
+    print("Factorial not defined for negative numbers")
 else:
     factorial = 1
     steps = []
