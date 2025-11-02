@@ -1,12 +1,12 @@
 try:
-    star = int(input("Enter a number: "))
+    star = int(input("Enter number of rows: "))
 
     if star > 0:
-        for i in range(star + 1):
+        for i in range(1, star + 1):
             print("*" * i)
     elif star == 0:
-        print("Nothing print because your input is Zero")
+        print("Nothing to print because your input is zero.")
     else:
-        print("Negative values are not allow")
+        print("Negative values are not allowed.")
 except ValueError:
     print("Invalid Input")
