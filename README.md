@@ -135,6 +135,49 @@ This way, the repo stays **organized, clean, and easy to navigate**.
 │   ├── print_n_num_and_sum.py
 │   ├── sum_even_odd.py
 │
+├── day-14/
+│   ├── factorial_calculator.py
+│   ├── sum_of_squares.py
+│
+├── day-15/
+│   ├── inverted_triangle_pattern.py
+│   ├── multiplication_table.py
+│   ├── right_angled_star_pattern.py
+│   ├── square_pattern.py
+│
+├── day-16/
+│   ├── Diamond_Star_Pattern.py
+│   ├── number_triangle.py
+│   ├── pattern_inverted_pyramid_numbers.py
+│   ├── pattern_number_pyramid.py
+│   ├── pattern_reverse_number_triangle.py
+│
+├── day-17/
+│   ├── half_diamond_pattern.py
+│   ├── Number_Diamond_Pattern.py
+│   ├── pascals_triangle.py
+│
+├── day-18/
+│   ├── F1_square_function.py
+│   ├── F2_cube_function.py
+│   ├── F3_checks_whether_a_number_is_Even_or_Odd.py
+│   ├── F4_sum_of_digits.py
+│   ├── F5_reverse_number.py
+│   ├── F6_is_palindrome.py
+│
+├── day-19/
+│   ├── F7_count_even_odd_digits.py
+│   ├── F8_count_prime_composite_digits.py
+│   ├── F9_sum_prime_digits.py
+│   ├── F10_digit_analysis.py
+│   ├── F11_number_properties.py
+│
+├── day-20/
+│   ├── FL1_filter_even_odd.py
+│   ├── FL2_filter_prime_numbers.py
+│   ├── FL3_filter_positive_negative.py
+│   ├── FL4_separate_even_odd.py
+│
 ├── day-n/
 │   ├── .py
 │
