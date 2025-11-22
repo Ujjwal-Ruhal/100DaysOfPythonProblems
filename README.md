@@ -191,6 +191,36 @@ This way, the repo stays **organized, clean, and easy to navigate**.
 │   ├── FL3_filter_positive_negative.py
 │   ├── FL4_separate_even_odd.py
 │
+├── day-21/
+│   ├── FL5_frequency_count.py
+│   ├── FL6_separate_numbers.py
+│   ├── FL7_find_max_min.py
+│   ├── FL8_bubble_sort.py
+│
+├── day-22/
+│   ├── F17_selection_sort.py
+│
+├── day-23/
+│   ├── PY_Tuple_Q1_Create_and_Access.py
+│   ├── PY_Tuple_Q2_Tuple_Slicing_and_Concat.py
+│   ├── PY_Tuple_Q3_Swap_First_Last.py
+│
+├── day-24/
+│   ├── PY_Tuple_Q4_Insert_At_Index.py
+│   ├── PY_Tuple_Q5_Reverse_Tuple.py
+│   ├── PY_Tuple_Q6_Swap_Indexes.py
+│   ├── tempCodeRunnerFile.py
+│
+├── day-25/
+│   ├── PY_Tuple_Q7_Check_Element.py
+│   ├── PY_Tuple_Q8_Element_Frequency.py
+│   ├── PY_Tuple_Q10_Remove_Duplicates.py
+│   ├── PY_Tuple_Q11_Second_Largest.py
+│
+├── day-26/
+│   ├── PY_Tuple_Q12_Merge_Remove_Duplicates.py
+│   ├── PY_Tuple_Q13_Tuple_Intersection.py
+│
 ├── day-n/
 │   ├── .py
 │
