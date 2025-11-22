@@ -33,6 +33,13 @@ This way, the repo stays **organized, clean, and easy to navigate**.
 | [Day-11](day-11/) | Electricity bill, Multi-customer billing, Salary increment |
 | [Day-12](day-12/) | Advanced discount systems, Bonus calculation advanced |
 | [Day-13](day-13/) | Counting digits, Digital root, Print n-sum, Even-odd sum |
+| [Day-14](day-14/) | Factorial calculator, Sum of squares |
+| [Day-15](day-15/) | Inverted triangle pattern, Multiplication table, Star patterns, Square patterns |
+| [Day-16](day-16/) | Diamond, number triangle, pyramids (normal/inverted/reversed) |
+| [Day-17](day-17/) | Half-diamond, number diamond, pascal's triangle |
+| [Day-18](day-18/) | Square/cube functions, even-odd check, digit sum, palindrome, number properties |
+| [Day-19](day-19/) | Count even/odd digits, prime/composite count, digit analysis, number properties |
+| [Day-20](day-20/) | Filter even/odd, filter primes, filter positives/negatives, separate even/odd |
 | [Day-n](day-n/) |  |
 | ... | ... |            
 
