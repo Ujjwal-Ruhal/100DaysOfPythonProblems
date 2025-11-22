@@ -40,6 +40,12 @@ This way, the repo stays **organized, clean, and easy to navigate**.
 | [Day-18](day-18/) | Square/cube functions, even-odd check, digit sum, palindrome, number properties |
 | [Day-19](day-19/) | Count even/odd digits, prime/composite count, digit analysis, number properties |
 | [Day-20](day-20/) | Filter even/odd, filter primes, filter positives/negatives, separate even/odd |
+| [Day-21](day-21/) | Frequency, separation, min/max, bubble sort |
+| [Day-22](day-22/) | Selection sort |
+| [Day-23](day-23/) | Tuple create, access, slicing, concat, swap first/last |
+| [Day-24](day-24/) | Tuple insert, reverse, swap, index ops, temp code file |
+| [Day-25](day-25/) | Tuple check element, frequency, remove dups, second largest |
+| [Day-26](day-26/) | Tuple merge/remove duplicates, intersection |
 | [Day-n](day-n/) |  |
 | ... | ... |            
 
