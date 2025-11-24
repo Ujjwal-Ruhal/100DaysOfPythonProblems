@@ -10,7 +10,7 @@ try:
         key = input("Enter key: ").strip()
 
         if key in data:
-            print("⚠️ Key already exists! Choose another key.")
+            print(" Key already exists! Choose another key.")
             continue     # skip duplicate
 
         value = input("Enter value: ").strip()
@@ -20,9 +20,9 @@ try:
     result = search_key(data, to_find)
 
     if result is None:
-        print("❌ Key not found!")
+        print("Key not found!")
     else:
-        print(f"✔️ Value for '{to_find}' is: {result}")
+        print(f" Value for '{to_find}' is: {result}")
 
 except ValueError:
     print("Invalid Input, try again")
