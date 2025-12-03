@@ -25,7 +25,7 @@ def ask_positive_int(prompt):
         return n
 
 def valid_email(email):
-    # Simple pragmatic check: contains single '@' with a dot after it
+    # Basic email validation
     if "@" not in email:
         return False
     parts = email.split("@")
